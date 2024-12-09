@@ -1,0 +1,17 @@
+Explicação das Propriedades do <Dialog.Root>:
+
+- open={open}: Define se o modal está aberto ou fechado.
+    -> Essa propriedade recebe um valor booleano (true ou false).
+
+    -> No exemplo, o valor de open vem do estado isModalOpen da página inicial (Home), então open={open} significa que, se isModalOpen for true,
+       o modal será  exibido; caso seja false, ele estará oculto.
+  
+- onOpenChange={setOpen}: Permite que o Radix UI controle o estado do modal.
+    -> Essa função é chamada automaticamente quando o usuário tenta abrir ou fechar o modal (como ao clicar fora do modal ou no botão de fechar).
+
+    -> O setOpen é a função que atualiza o estado de open. Quando o modal precisa ser fechado, por exemplo, onOpenChange chama setOpen com o valor
+       false.
+
+Resumo do Comportamento
+  1. Abrir: O modal será exibido quando open for true, o que ocorre no carregamento da página devido ao useEffect.
+  2. Fechar: Quando o usuário interage com o modal (clicando fora ou no botão de fechar), onOpenChange define open como false, escondendo o modal.

@@ -1,0 +1,14 @@
+PROJETO PESSOAL: BCC-UFU-SUBJECTS
+
+Fazer com que os botões fiquem em forma de grid, com o código da disciplina na parte superior e a carga horária na parte inferior
+
+Fazer com que o texto extra dos títulos dos botões apareçam com hover (deixar uma marcação com algum ícone naquelas que precisam disso e
+acrescentar no tutorial essa informação, que as disciplinas que tem o ícone são isso)
+
+Adicionar grade do BSI
+
+Adicionar compatibilidade de disciplinas com a grade do BSI
+
+Adicionar compatibilidade de disciplinas com a grande anterior
+
+Adicionar as optativas
